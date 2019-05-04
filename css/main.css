@@ -225,3 +225,65 @@ a:active {
 }
 
 /**/
+
+
+
+/* works */
+
+.work-item {
+	position: relative;
+
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+
+.work-cont {
+	position: absolute;
+	top: 50%;
+	left: 0;
+	transform: translateY(-50%);
+
+	pointer-events: none;
+}
+
+.work-head {
+	width: 700px;
+	margin-bottom: 40px;
+}
+
+.work-head span {
+	display: block;
+	margin-bottom: 10px;
+
+	font-size: 18px;
+}
+
+.work-head h3 {
+	font-size: 45px;
+	line-height: 1.15;
+}
+
+.work-body {
+	width: 260px;
+}
+
+.work-body p {
+	margin-bottom: 60px;
+
+	color: #747474;
+}
+
+.work-more a {
+	pointer-events: auto;
+}
+
+.work-overview {
+	display: block;
+	width: 640px;
+	height: 400px;
+
+	background: #ccc;
+}
+
+/**/
