@@ -287,3 +287,60 @@ a:active {
 }
 
 /**/
+
+
+
+/* contacts */
+
+.contacts .container-1200 {
+	position: relative;
+}
+
+.contacts .fullscreen {
+	padding-top: 100px;
+}
+
+.contacts h2 {
+	margin-bottom: 60px;
+
+	font-size: 45px;
+	line-height: 1.15;
+}
+
+.contact-item_1 {
+	margin-bottom: 40px;
+}
+
+.contact-item span {
+	display: block;
+
+	font-size: 20px;
+}
+
+.contact-item a {
+	display: inline-block;
+
+	font-size: 20px;
+	color: #747474;
+}
+
+.contact-item a:after {
+	background: #747474;
+}
+
+.contacts-bottom {
+	position: absolute;
+	right: 0;
+	bottom: 20px;
+	left: 0;
+
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.contacts-bottom .github-link {
+	font-size: 18px;
+}
+
+/**/
